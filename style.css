@@ -1,0 +1,155 @@
+
+body{
+  background-image: url(images/autoparts-bg.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+/* .layout{
+  background-color: #f2c200ba;
+  height: auto;
+} */
+.login-bg{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.login-form-bg{
+  background-color: #000000b8;
+  padding:30px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.categories_list{
+  margin-top: 50px;
+  background-color: #000000b8;
+  padding: 15px;
+  border-radius: 8px;
+}
+.form-bg{
+  background-color: #000000b8;
+  padding:30px;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.categories-bg{
+  background-color: #000000b8;
+  padding:30px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-bg form input{
+  padding: 9px ;
+}
+.hero {
+  background-color: #000000b8;
+}
+.input{
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+ select{
+  border: 0px;
+  border-radius: 5px;
+  padding: 8px 55px;
+  background-color: white;
+}
+.card-heigt{
+  height: auto;
+}
+.card{
+  background-color: #000000b8 !important;
+  width: 18rem !important;
+  transition: 0.5s;
+}
+.card:hover{
+    background-color: rgb(25, 135, 84)!important;
+}
+.nav-item:hover{
+  background-color: rgb(25, 135, 84)!important;
+  border-radius: 8px;
+
+}
+.logo{
+  margin-left: 20px;
+}
+.login{
+  margin-right: 20px;
+}
+
+.navbar_second{background-color: #000000b8!important;
+
+}
+.card-content i{
+  font-size: 80px;
+}
+@media only screen and (max-width: 800px) {
+  .form-bg{
+    width: 70%;
+  }
+}
+.list li {
+  list-style-type: none;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: green;
+  color: white;
+}
+/* .categories_list ul li{
+  border:1px solid red;
+} */
+#confirm-model{
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+#confirm-model-box{
+  background: #fff;
+  width: 18%;
+  position: relative;
+  top: 30%;
+  left: calc(55% - 15%);
+  padding: 15px;
+  border-radius: 4px;
+}
+.not-found-text{
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75vh;
+  z-index: 100;
+}
+.qty{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    width: 50px;
+    margin:2px;
+}
+
+.discount{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+}
+  /* *{
+    border:1px solid red;
+  } */
